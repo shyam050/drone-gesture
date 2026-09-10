@@ -1,0 +1,15 @@
+# Core
+numpy>=1.24
+
+# Vision / gesture detection (laptop side)
+opencv-python>=4.8
+mediapipe>=0.10
+
+# Drone control
+pymavlink>=2.4
+
+# Pi-only: serial for UART <-> UDP proxy
+pyserial>=3.5
+
+# Pi-only: camera via CSI / libcamera
+# picamera2 (Raspberry Pi OS Bookworm)
